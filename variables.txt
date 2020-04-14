@@ -1,0 +1,15 @@
+food = "Mac and Cheese"
+is_delicious = true
+food = "Apples and Cheese"
+
+num2 = 3
+num7 = 27
+
+quotient = num7 / num2
+
+
+songs = ["Aguas de Marco", "King of the Bongos", "Be-In", "Prokofiev Violin Concerto No. 2"]
+
+songs.shift
+
+food.length
