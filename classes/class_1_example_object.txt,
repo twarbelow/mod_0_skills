@@ -1,0 +1,13 @@
+shrimp_pad_thai
+
+attributes:
+available = true
+price = 11.99
+name = "Shrimp Pad Thai"
+vegetarian = false
+
+methods:
+change_price ==> price = price - 2.00
+rename ==> name = "Best Shrimp Pad Thai"
+request_vegetarian ==> vegetarian = true
+sell_last_portion ==> available = false
