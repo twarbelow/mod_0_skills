@@ -1,0 +1,13 @@
+Tables
+
+attributes:
+seats_available (integer)
+ready_to_use (boolean)
+reserved (boolean)
+section (string)
+
+methods:
+reserve_table (change reserved boolean)
+reset_table (change ready to use boolean)
+move_table_to_new_section (change section string)
+seat_customer (change seats_available integer, and ready_to_use boolean)
