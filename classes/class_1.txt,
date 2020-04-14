@@ -1,0 +1,11 @@
+MenuItem
+
+available (boolean)
+price (float)
+name (string)
+vegetarian (boolean)
+
+change_price (changes price attribute)
+rename (changes name attribute)
+request_vegetarian (changes vegetarian boolean)
+sell_last_portion (changes available boolean)
