@@ -1,0 +1,13 @@
+best_table
+
+attributes:
+seats_available = 4
+ready_to_use = false
+reserved = false
+section = "Kitchen view"
+
+methods:
+reserve_table ==> reserved = true
+reset_table ==> ready_to_use = true
+move_table_to_new_section ==> section = "Ocean view"
+seat_customer ==> seats_available = 3, ready_to_use = false
